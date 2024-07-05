@@ -5,12 +5,12 @@ if password == 'abcd':
     print('Hallo')
     s = input('Enter a word from the options: [[no s]], [[yes s]], [[maybe s]] ')
     
-    if s == 'no':
-        print('[[ You write no ccccsss,DD,]]')
-    elif s == 'yes':
-        print('[[ You write yes cccccssss,DD,]]')
-    elif s == 'maybe':
-        print('[[ You write mybe  cccccsssss,DD,]]')
+    if s.lower == 'no':
+        print('[[ You write no ]]')
+    elif s.lower == 'yes':
+        print('[[ You write yes ]]')
+    elif s.lower == 'maybe':
+        print('[[ You write mybe ]]')
     else:
         print('Error: Invalid input')
 else:
