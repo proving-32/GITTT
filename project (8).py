@@ -3,7 +3,7 @@ password = input('Enter the password: ')
 
 if password == 'abcd':
     print('Hallo')
-    s = input('Enter a word from the options: [[no]], [[yes]], [[maybe]] ')
+    s = input('Enter a word from the options: [[no s]], [[yes s]], [[maybe s]] ')
     
     if s == 'no':
         print('[[ You wrote no ]]')
